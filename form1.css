@@ -1,0 +1,66 @@
+.main{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid #ddd;
+  border-color: black;
+
+  width: 100%;
+}
+.s2{
+  width: 85%;
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid  #ddd;
+  color: deeppink;
+  background-color: pink;
+
+}
+.s1{
+  width: 60%;
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid #ddd;
+  color: blue;
+  border-color: grey;
+  background-color: skyblue;
+}
+select,input{
+  width: 80%;
+}
+/*index*/
+header{
+  text-align: center;
+  color: deeppink;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.child{
+  width: 25%;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 3px #ddd;
+  padding: 1%;
+  margin: 1%;
+}
+/*resume.html*/
+.main1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+  .left{
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid  #ddd;
+  }
+.right{
+  width: 65%;
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid  #ddd;
+}
